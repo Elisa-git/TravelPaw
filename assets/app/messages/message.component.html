@@ -1,0 +1,16 @@
+<article class="panel panel-default" >
+    <div class="author">
+        {{MessageVarClasse.username}}
+        {{messageVarClasseAlias.username}}:
+    </div>
+    <div class="message-content">
+        {{MessageVarClasse.content}}
+        {{messageVarClasseAlias.content}}
+    </div>
+    <footer class="panel-footer">
+        <div class="message-options">
+            <a (click)="onEditService()">Edit</a>
+            <a (click)="deleteMessage()">Delete</a>
+        </div>
+    </footer>
+</article>
