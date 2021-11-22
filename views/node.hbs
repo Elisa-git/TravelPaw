@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Nova view Node</h1>
+    <div>{{message}}</div>
+    <form action="/node-mongodb-mongoose-user" method="post">
+        <input type="text" name="email" placeholder="email">
+        <input type="text" name="firstname" placeholder="nome">
+        <input type="text" name="lastname" placeholder="sobrenome">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h1>Ultimo usuario registrado:</h1>
+    {{firstNameV}}<br>
+    {{lastNameV}}<br>
+    {{passwordV}}<br>
+    {{emailV}}<br>
+    {{messagesV}}<br>
+</div>
