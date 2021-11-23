@@ -13,9 +13,9 @@ export class AppComponent {
     mostrarElemento: boolean = true;
     valorNgSwitch: number;
     messages: Message[] = [
-        new Message("testando uma mensagem maneira", "Gustav Wagner"),
-        new Message("Eu preciso escrever algo", "GRW"),
-        new Message("Só vem merda na minha cabeça", "TETEUS")
+        new Message("Mensagem aqui", "Mesquita"),
+        new Message("Message here", "Nascimento"),
+        new Message("Teste try one", "Elisa")
     ]
     onMudaMostrarElemento(){
         this.mostrarElemento = !this.mostrarElemento;
